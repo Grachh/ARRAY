@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 
 public class LibRdm {
@@ -129,4 +130,32 @@ public class LibRdm {
 			col[i] = hRdm();
 		return col;
 	}
+	
+	
+	
+	public static String toString(int[] col) {
+		return "LibArray [] col=" + Arrays.toString(col);
+	}
+	public static String toString(double[] col) {
+		return "LibArray [] col=" + Arrays.toString(col);
+	}
+	public static String toString(boolean[] col) {
+		return "LibArray [] col=" + Arrays.toString(col);
+	}
+	public static String toString(char[] col) {
+		return "LibArray [] col=" + Arrays.toString(col);
+	}
+	public static String toString(String[] col) {
+		return "LibArray [] col=" + Arrays.toString(col);
+	}
+	public static String toString(Fecha[] col) {
+		return "LibArray [] col=" + Arrays.toString(col);
+	}
+	public static String toString(Horario[] col) {
+		return "LibArray [] col=" + Arrays.toString(col);
+	}
+	public static String toString(Reloj[] col) {
+		return "LibArray [] col=" + Arrays.toString(col);
+	}
+	
 }
